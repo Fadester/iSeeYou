@@ -5,4 +5,3 @@
 - git clone https://github.com/Fadester/iSeeYou/
 - cd iSeeYou/
 - sudo bash iSeeYou.sh
-Done! 
