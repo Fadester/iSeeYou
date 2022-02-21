@@ -135,6 +135,7 @@ if [[ $eingabe == 1 ]]; then
   shell_linux
 else
   echo -e "$BlueF[$red!$BlueF]$red Invalid option! $farblos"
+  eingabe
 fi
 
 }
