@@ -128,13 +128,11 @@ eingabe() {
 ip4=$(hostname -I | cut -d " " -f1)
 echo
 echo -e "$BlueF[$green""1$BlueF]$yellow Linux $farblos"
-echo -e "$BlueF[$green""2$BlueF]$yellow Windows $farblos"
+echo -e "$BlueF[$green""2$BlueF]$yellow Windows [Coming soon!] $farblos"
 echo
 read -p $'\e[1;34m[\e[35mChoice\e[1;34m]\e[1;34m >> \e[1;37m' eingabe
 if [[ $eingabe == 1 ]]; then
   shell_linux
-elif [[ $eingabe == 2 ]]; then
-  shell_windows
 else
   echo -e "$BlueF[$red!$BlueF]$red Invalid option! $farblos"
 fi
